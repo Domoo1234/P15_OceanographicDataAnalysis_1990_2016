@@ -135,8 +135,3 @@ if using this repository, please cite:
 
 Reitano, D. (2026). P15 Oceanographic Data Analysis (1990–2016). GitHub.
 Available at: https://github.com/Domoo1234/P15_OceanographicDataAnalysis_1990_2016
-
-
-UR  - https://github.com/Domoo1234/P15_OceanographicDataAnalysis_1990_2016
-DB  - GitHub
-ER  -
