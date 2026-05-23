@@ -100,6 +100,22 @@ Fits linear models to calculate slope + R²
 
 Produces faceted trend plots with annotated statistics
 
+4. 2016_P15_Bottle_upload.R
+Loads and analyses the 2016 bottle dataset, including nutrients.
+Key steps:
+
+Reads bottle NetCDF file using tidync
+
+Extracts bottle variables (nitrate, oxygen, salinity, temperature, etc.)
+
+Joins station metadata (lat/lon) via N_PROF
+
+Filters by latitude band and depth (pressure as proxy)
+
+Produces nutrient and oxygen profiles (e.g., nitrate vs depth, oxygen vs depth)
+
+Supports identification of AAIW signatures using bottle‑sample variables
+
 Regions of Interest (ROIs)
 Defined following Bostock et al. (2013):
 
